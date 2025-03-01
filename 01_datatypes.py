@@ -22,3 +22,6 @@ False
 # float
 3.14
 -3.14
+
+# lists
+["Csaba", "Kriszta", "Balázs", True, False, 10, 100, 3.14]
