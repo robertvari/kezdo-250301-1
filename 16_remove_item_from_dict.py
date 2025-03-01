@@ -1,6 +1,5 @@
 import pprint
 
-
 phonebook = {
     "06 20 123 4567": {
         "name": "Kiss Csaba", 
@@ -17,4 +16,5 @@ phonebook = {
         }
 }
 
-print(phonebook["06 20 123 4567"]["birth_date"])
+del phonebook["06 20 987 6543"]
+pprint.pprint(phonebook)
