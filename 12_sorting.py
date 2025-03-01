@@ -1,1 +1,5 @@
-first_names = ["Alice", "Bob", "Charlie", "David", "Emma", "Frank", "Grace", "Henry", "Isla", "Jack"]
+first_names = ['Bob', 'Henry', 'David', 'Frank', 'Jack', 'Isla', 'Emma', 'Grace', 'Alice', 'Charlie']
+
+print(first_names)
+print(sorted(first_names))
+print(sorted(first_names, reverse=True))
