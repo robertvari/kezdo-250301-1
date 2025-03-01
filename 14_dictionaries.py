@@ -1,10 +1,10 @@
 import pprint
 
 
-phonebook = {
+phonebook = {d
     "06 20 123 4567": {
         "name": "Kiss Csaba", 
-        "address": "Budapest", 
+        "adress": "Budapest", 
         "email": "csaba@gmail.com",
         "birth_date": "1987-02-13"
         },
