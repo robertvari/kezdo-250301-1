@@ -1,0 +1,17 @@
+{
+    "06 20 123 4567": {
+        "name": "Kiss Csaba",
+        "email": "csaba@gmail.com",
+        "address": "Budapest"
+    },
+    "06 30 987 6543": {
+        "name": "Kov\u00e1cs G\u00e9za",
+        "email": "P\u00e9cs",
+        "address": "geza@gmail.com"
+    },
+    "06 30 913 4528": {
+        "name": "Kocsis Gizella",
+        "email": "gizike@gmail.com",
+        "address": "Debrecen"
+    }
+}
