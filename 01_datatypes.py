@@ -25,3 +25,11 @@ False
 
 # lists
 ["Csaba", "Kriszta", "Balázs", True, False, 10, 100, 3.14]
+
+# dictionary
+# key : value
+{
+    "name": "Csaba",
+    "phone": "06 20 123 4567", 
+    "address": "Budapest"
+}
