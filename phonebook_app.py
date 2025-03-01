@@ -1,6 +1,13 @@
 import json, os
 
+# create an empty phonebook dictionary
 phonebook = {}
+
+# IF phonebook exists
+if os.path.exists("phonebook.json"):
+    # open it and load it into phonebook dictionary
+    with open("phonebook.json") as file:
+        phonebook = json.load(file)
 
 # clear terminal
 os.system("cls")
