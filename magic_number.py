@@ -18,6 +18,7 @@ while True:
 
 
     # Get a random number between min_number and max_number
+    # str(number) we cast our integer into a string
     magic_number = str(5)
 
     # Get number from player
