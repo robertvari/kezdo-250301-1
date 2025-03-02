@@ -6,13 +6,16 @@ while True:
     # Clear terminal
     os.system("cls")
 
-    # Print game intro
-    print("-"*50, "The Magic Number Game", "-"*50)
-
     # Game rules
     min_number = 1
     max_number = 10
     try_count = 3
+
+    # Print game intro
+    print("-"*50, "The Magic Number Game", "-"*50)
+    print(f"I think of a number between {min_number} and {max_number}. Can you guess it?")
+    print(f"You have {try_count} tries.")
+
 
     # Get a random number between min_number and max_number
     magic_number = 5
