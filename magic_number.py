@@ -24,13 +24,11 @@ while True:
     # Get number from player
     player_number = input("What is your guess?")
 
+    while magic_number != player_number:
+        print("Wrong guess. Try again")
+        player_number = input("What is your guess?")
 
-    if magic_number == player_number:
-        print(f"You win! {magic_number} was my number.")
-    else:
-        print("You lost this round.")
-
-
+    print("You win!")
     response = input("Do you want to play again (y/n)")
     if response == "n":
         print("Game Exited. See you later!")
