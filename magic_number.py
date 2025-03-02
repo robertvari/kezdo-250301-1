@@ -18,7 +18,7 @@ while True:
 
 
     # Get a random number between min_number and max_number
-    magic_number = 5
+    magic_number = str(5)
 
     # Get number from player
     player_number = input("What is your guess?")
