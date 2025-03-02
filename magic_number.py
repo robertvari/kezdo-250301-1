@@ -19,7 +19,7 @@ while True:
 
     # Get a random number between min_number and max_number
     # str(number) we cast our integer into a string
-    magic_number = str(5)
+    magic_number = str(random.randint(min_number, max_number))
 
     # Get number from player
     player_number = input("What is your guess?")
